@@ -116,12 +116,13 @@
     background-size: cover;
     min-height: 650px;
     overflow: hidden;
+    position: relative;
 }
 #contact-us .container .message{
-    position: relative;
-    top: 40px;
-    width: 60%;
-    float: right;
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    width: 50%;
 }
 
 #contact-us .container .message h1{
