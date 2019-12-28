@@ -1,0 +1,282 @@
+#about-us{
+    margin: 60px auto;
+}
+#about-us .card{
+    transition: 1s;
+    height: auto;
+    border-radius: 20px;
+    border: 0;
+}
+.card-about{
+    text-align: center;
+    line-height: 25px;
+    margin: 10px 60px;
+}
+#about-us .card:hover{
+    box-shadow: 0 20px 50px rgba(0,0,0,0.3);
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: bold;
+    transform: translateY(-10px);
+    transition: 0.5s ease-in-out;
+}
+#our-travels,
+#offers{
+    background-blend-mode: darken;
+    background-size: cover;
+    min-height: 550px;
+    transition: 1s;
+    margin-bottom: 60px;
+}
+#our-travels .card,
+#offers .card{
+    border-radius: 20px;
+    box-shadow: 0 20px 50px rgba(0,0,0,0.3);
+}
+#our-travels .card .card-header,
+#offers .card .card-header{
+    text-align: center;
+    font-size: 24px;
+}
+#our-travels .card .card-body,
+#offers .card .card-body{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#our-travels .cards,
+#offers .cards{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0 50px;
+}
+
+#our-travels .cards .face,
+#offers .cards .face{
+    width: 256px;
+    transition: 0.5s;
+    box-sizing: border-box;
+    border-radius: 10px;
+    height: 200px;
+    position: relative;
+}
+#our-travels .cards .face1,
+#offers .cards .face1{
+    z-index: 1;
+    background: rgba(0,0,0,0.2);
+}
+#our-travels .cards .face2,
+#offers .cards .face2{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background: #fff;
+    box-shadow: 0 20px 50px rgba(0,0,0,0.3);
+    box-sizing: border-box;
+}
+#our-travels .cards .face1 .content img,
+#offers .cards .face1 .content img{
+    border-radius: 10px;
+    height: 170px;
+    width: 100%;
+}
+#our-travels .cards:hover .face1 .content img,
+#offers .cards:hover .face1 .content img{
+    box-shadow: 0 20px 50px rgba(0,0,0,255.3) inset;
+
+}
+#our-travels .cards .face1 .content h5,
+#offers .cards .face1 .content h5{
+    text-align: center;
+    padding: 5px;
+}
+#our-travels .cards .face2 .content p,
+#offers .cards .face2 .content p{
+    margin: 0 10px;
+    padding: 0;
+}
+#our-travels .cards .face2 .content a,
+#offers .cards .face2 .content a{
+    margin: 10px 0px 0 10px;
+}
+#our-travels .cards .face2,
+#offers .cards .face2{
+    transform: translateY(-200px);
+}
+#our-travels .cards:hover .face2,
+#offers .cards:hover .face2{
+    transform: translateY(0px);
+}
+
+#contact-us{
+    background: url("../images/footer.jpg"),  linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)) no-repeat;
+    background-blend-mode: overlay;
+    background-size: cover;
+    min-height: 650px;
+    overflow: hidden;
+}
+#contact-us .container .message{
+    position: relative;
+    top: 40px;
+    width: 60%;
+    float: right;
+}
+
+#contact-us .container .message h1{
+    color: white;
+    border-bottom: 5px solid #1d643b;
+    width: 200px;
+    text-align: center;
+    margin-bottom: 40px;
+    cursor: default;
+}
+
+
+#contact-us .container .message form input ,
+#contact-us .container .message form textarea
+{
+    caret-color: white;
+    color: white;
+    width: 80%;
+    margin: 20px 60px;
+    padding: 15px;
+    background: rgba(0,0,0,0.8);
+    border: 0;
+    box-shadow: 2px 2px 7px 3px rgba(255,255,255,0.5);
+    transition: 0.5s;
+}
+#contact-us .container .message form input:last-of-type{
+    width: 40%;
+    transition: 0.5s;
+
+}
+#contact-us .container .message form input:hover,
+#contact-us .container .message form textarea:hover{
+    background: #1d643b;
+    opacity: 0.5;
+    border-radius: 20px;
+    transform: perspective(1000px) translateY(10px);
+
+ }
+#contact-us .container .info{
+    float: left;
+}
+#contact-us .container .info{
+    float: left;
+}
+#contact-us .container .info .social{
+    width: 350px;
+    height: 50px;
+    display: flex;
+    box-sizing: border-box;
+    transition: 1s linear;
+    margin: 20px;
+    padding: 20px;
+}
+
+
+#contact-us .container .info .social ._btn0{
+    font-size: 24px;
+    color: #1d643b;
+}
+#contact-us .container .info .social ._btn1{
+    font-size: 24px;
+    color: #5BE776;
+}
+#contact-us .container .info .social ._btn2{
+    font-size: 24px;
+    color: #BB4C89;
+}
+#contact-us .container .info .social ._btn3{
+    font-size: 24px;
+    color: #4267B2;
+}
+#contact-us .container .info .social ._btn4{
+    font-size: 24px;
+    color: #1DA1F2;
+}
+#contact-us .container .info .social i:hover{
+    transform: translateY(-10px) scale(1.5);
+    transition: 1s;
+}
+
+#contact-us .container .info .social .content{
+    display: flex;
+    width: 0;
+    height: 100%;
+    border-radius: 20px;
+    font-family: monospace, sans-serif;
+    color: rgba(0,0,0,0.01);
+    font-weight: bold;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px;
+}
+#contact-us .container .info .social:hover > .content{
+    width: 300px;
+    transition: 2s linear;
+    color: white;
+}
+::placeholder{
+    color: white;
+}
+footer{
+    height: 120px;
+    width: 100%;
+    background: rgba(0,0,0,0.9);
+    text-align: center;
+    position: relative;
+}
+footer .social{
+    font-size: 24px;
+    padding: 15px;
+    color: white;
+}
+footer .social a i{
+    margin:0 20px;
+    transition: 0.5s;
+    color: rgba(255,255,255,0.5);
+
+}
+footer .social a i:hover{
+    color: #1d643b;
+}
+footer h6{
+    color: rgba(255,255,255,0.5);
+    font-family: "Mitra Mono",sans-serif;
+}
+footer h6 i{
+    color: #1d643b;
+    font-size: 24px;
+}
+footer .back{
+    position: absolute;
+    right: 50px;
+    font-size: 24px;
+    color: #fff;
+    bottom: 50px;
+    animation: arrow 2s infinite;
+}
+
+@keyframes arrow {
+    0%{
+        transform:rotateY(180deg) translateY(-50%);
+    }
+    25%{
+        transform:translateY(25%);
+    }
+    50%{
+        transform:translateY(-25%);
+
+    }
+    75%{
+        transform:translateY(25%);
+
+    }
+    100%{
+        transform:translateY(-25%);
+    }
+}
