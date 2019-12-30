@@ -229,7 +229,7 @@
 ::placeholder{
     color: white;
 }
-footer{
+/* footer{
     height: 120px;
     width: 100%;
     background: rgba(0,0,0,0.9);
@@ -285,4 +285,4 @@ footer .back{
     100%{
         transform:translateY(-25%);
     }
-}
+} */
