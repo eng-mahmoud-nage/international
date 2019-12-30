@@ -1,5 +1,5 @@
 #about-us{
-    margin: 60px auto;
+    margin-top: 60px;
 }
 #about-us .card{
     transition: 1s;
@@ -22,14 +22,20 @@
 }
 #our-travels,
 #offers{
-    background-blend-mode: darken;
-    background-size: cover;
+
     min-height: 550px;
     transition: 1s;
-    margin-bottom: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#our-travels{
+    background: url("../images/footer.jpg"),  linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)) no-repeat;
+    background-attachment: fixed;
 }
 #our-travels .card,
 #offers .card{
+    margin-top: 20px;
     border-radius: 20px;
     box-shadow: 0 20px 50px rgba(0,0,0,0.3);
 }
@@ -111,7 +117,7 @@
 }
 
 #contact-us{
-    background: url("../images/footer.jpg"),  linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)) no-repeat;
+    background: url("../images/footer.jpg"),  linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)) no-repeat;
     background-blend-mode: overlay;
     background-size: cover;
     min-height: 650px;
@@ -162,9 +168,8 @@
 
  }
 #contact-us .container .info{
-    float: left;
-}
-#contact-us .container .info{
+    position: absolute;
+    left: 5%;
     float: left;
 }
 #contact-us .container .info .social{

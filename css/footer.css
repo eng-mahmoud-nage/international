@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+h3{
+    font-size: 18px;
+    color: #fff;
+}
+.footer{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    /* background: linear-gradient(45deg,#111,#222, #111); */
+    background: linear-gradient(#111, #111), no-repeat;
+    background-size: cover;
+}
+.footer .social{
+    text-align: center;
+    width: 100%;
+    height: 20%;
+    padding: 40px 0;
+}
+.footer .social a{
+    text-decoration: none;
+    padding: 10px;
+}
+.footer .social a i{
+    font-size: 36px;
+    transition: 0.5s;
+    color: rgba(255, 255, 255, 0.8);
+}
+.footer .social a:nth-of-type(1) i:hover{
+    color: #4267B2;
+}
+.footer .social a:nth-of-type(2) i:hover{
+    color: #53D367;
+}
+.footer .social a:nth-of-type(3) i:hover{
+    color: #405DE6;
+}
+.footer .social a:nth-of-type(4) i:hover{
+    color: #DC5246;
+}
+.footer .social a:nth-of-type(5) i:hover{
+    color: #5DA9DD;
+}
+.footer .social a i:hover{
+    transform: translateY(-5px) scale(1.1);
+    transition: 0.5s;
+}
+
+.footer .content{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    height: 60%;
+}
+.footer .content .contact_us{
+    background: rgba(0, 0, 0,0.7);
+    border-radius: 10px;
+    color: #fff;
+    
+}
+.footer .content h3{
+    text-align: center;
+    margin: 30px 0;
+    color: #fff;
+    text-decoration: underline;
+}
+.footer .content .contact_us h5{
+    display: inline-block;
+    text-align: center;
+    padding: 10px 5px;
+    font-size: 12px;
+}
+.footer .content .contact_us i{
+    padding: 5px 5px 5px 10px;
+    font-size: 20px;
+}
+.footer .content .contact_us i:hover{
+    transform: translateY(-5px) scale(1.1);
+    transition: 0.5s;
+    color: #DC5246;
+}
+
+.footer .content .link,
+.footer .content .our_service{
+    text-align: center;
+}
+.footer .content .link a,
+.footer .content .our_service span{
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    transition: 0.5s;
+    padding: 7px;
+}
+.footer .content .link a:hover,
+.footer .content .our_service span:hover{
+    transform: translateY(-5px) scale(1.1);
+    transition: 0.5s;
+    color: #DC5246;
+}
+
+.footer .message{
+    background: rgba(0, 0, 0,0.7);
+    border-radius: 10px;
+    position: relative;
+}
+.footer .message form{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer .message form input,
+.footer .message form textarea{
+    width: 90%;
+    margin-bottom: 30px;
+    background: transparent;
+    border: 0;
+    border-bottom:1px solid #888;
+    color: #fff;
+    outline: none;
+}
+.footer .message form input:last-of-type{
+    border: 0;
+    width: 70%;
+    background: rgba(0, 0, 0,1);
+    border-radius: 10px;
+    padding: 10px 0px;
+    font-size: 18px;
+    transition: 0.5s;
+}
+.footer .message form input:last-of-type:hover{
+    color:rgb(0, 0, 0);
+    background: #888;
+    transition: 0.5s;
+}
+.footer .container .copyright{
+    text-align: center;
+    color: #888;
+    text-decoration: underline;
+    height: 10%;
+    widows: 100%;
+}
+.footer .container .copyright h5{
+    margin-top: 70px;
+    font-size: 12px;
+} 
+
+@media (max-width: 991px){
+    .footer{
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        height: auto;
+    }
+    .footer .content{
+        flex-flow: wrap;
+    }.footer .content .message{
+        margin-top: 40px;
+    }
+}
