@@ -20,7 +20,7 @@
     transform: translateY(-10px);
     transition: 0.5s ease-in-out;
 }
-#our-travels,
+/* #our-travels,
 #offers{
 
     min-height: 550px;
@@ -29,9 +29,11 @@
     justify-content: space-between;
     align-items: center;
 }
-#our-travels{
-    background: url("../images/footer.jpg"),  linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)) no-repeat;
-    background-attachment: fixed;
+.cards{
+    background: url("../images/cards.jpg"),  linear-gradient(#222,#222);
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 #our-travels .card,
 #offers .card{
@@ -114,10 +116,10 @@
 #our-travels .cards:hover .face2,
 #offers .cards:hover .face2{
     transform: translateY(0px);
-}
+} */
 
-#contact-us{
-    background: url("../images/footer.jpg"),  linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)) no-repeat;
+/* #contact-us{
+    background: url("../images/cards.jpg"),  linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)) no-repeat;
     background-blend-mode: overlay;
     background-size: cover;
     min-height: 650px;
@@ -228,7 +230,7 @@
 }
 ::placeholder{
     color: white;
-}
+} */
 /* footer{
     height: 120px;
     width: 100%;
