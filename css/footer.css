@@ -3,11 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    width: 100%;
-    height: 100vh;
-    position: relative;
-}
+
 h3{
     font-size: 18px;
     color: #fff;
@@ -42,7 +38,7 @@ h3{
     color: #53D367;
 }
 .footer .social a:nth-of-type(3) i:hover{
-    color: #405DE6;
+    color: #DE4B75;
 }
 .footer .social a:nth-of-type(4) i:hover{
     color: #DC5246;
@@ -150,10 +146,10 @@ h3{
     color: #888;
     text-decoration: underline;
     height: 10%;
+    padding: 5% 0;
     widows: 100%;
 }
 .footer .container .copyright h5{
-    margin-top: 70px;
     font-size: 12px;
 } 
 
